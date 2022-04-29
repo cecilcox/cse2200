@@ -1,5 +1,5 @@
-public class IntroObjects {
-    public class House {
+
+public class House {
         public String address;
         public int square_footage;
 
@@ -14,12 +14,13 @@ public class IntroObjects {
             //      calculated as 10000 times its square footage
             return 0;
         }
-    }
+    
 
-    public static void main(String[] args){
-        h1 = new House("12 Regent Street", 2000 );
-        //TODO: Print the value of the house
-        System.out.println("The value of the house is ");
-    }
+        public static void main(String[] args){
+            h1 = new House("12 Regent Street", 2000 );
+            //TODO: Print the value of the house
+            System.out.println("The value of the house is ");
+        }
+     }
 
-}
+
