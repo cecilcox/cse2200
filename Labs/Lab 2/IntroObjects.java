@@ -16,7 +16,7 @@ public class IntroObjects {
         }
     }
 
-    public static void main(){
+    public static void main(String[] args){
         h1 = new House("12 Regent Street", 2000 )
         //TODO: Print the value of the house
         System.out.println("The value of the house is ");
